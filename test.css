@@ -1,0 +1,47 @@
+body{
+	background: black;
+}
+
+#safe{
+	position: absolute;
+	background: gray;
+	border-radius: 10%;
+	text-align: center;
+	vertical-align: center;
+}
+
+#door{
+	position: absolute;
+	background: lightgrey;
+	border-radius: 10%;
+}
+
+.lock{
+	position: absolute;
+	background: red;
+	justify-content: center;
+	align-items: center;
+}
+
+.key{
+	display: flex;
+	position: absolute;
+	background: lightgray;
+	justify-content: center;
+	align-items: center;
+}
+
+.key:hover{
+	background: gray;
+	cursor: pointer;
+}
+
+#button{
+	position: absolute;
+	background: white;
+	border: solid black 3px;
+}
+
+#button:hover{
+	background: red;
+}
